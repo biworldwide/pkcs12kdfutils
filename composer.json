@@ -1,0 +1,25 @@
+{
+    "name": "biworldwide/pkcs12kdfutils",
+    "description": "PKCS12Utils is a class providing encryption / decryption support using PKCS#12 KDF for Password-Based Encryption (PBE)",
+    "license": "MIT",
+    "keywords": ["encryption", "pkcs12", "kdf", "aes", "aes128", "aes256", "pbe", "bouncycastle"],
+    "authors": [
+        {
+            "name": "Bibek Sahu",
+            "email": "bibek@sahuconsulting.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Kevin Higgins",
+            "email": "Kevin.Higgins@biworldwide.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {"biworldwide\\pkcs12kdfutils\\": "src/"}
+    }
+}
